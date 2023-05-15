@@ -4,7 +4,7 @@ A nextcloud image that enables https.
 
 公式イメージ`nextcloud:latest`から派生し、httpsを有効化したnextcloudイメージ。
 
-[view on dockerhub](https://hub.docker.com/r/kakusi/nextcloud)
+[view on dockerhub](https://hub.docker.com/r/kakusi/nextcloud/tags)
 
 ## 使い方
 
