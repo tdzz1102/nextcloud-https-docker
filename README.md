@@ -21,9 +21,7 @@ docker run -d -p 8080:80 -p 8443:443 \
   -v nextcloud:/var/www/html \
   -v /your/cert:/cert/cert.pem \
   -v /yout/cert_key:/cert/key.pem \
-  -e http_proxy=http://your.proxy:2023 \
-  -e https_proxy=http://your.proxy:2023 \
   kakusi/nextcloud:https
 ```
 
-コンテナ80番ポートはhttpで、443番ポートはhttpsを使います。`http_proxy`と`https_proxy`が要らない場合は`-e http_proxy=`と`https_proxy`をそのまま置く必要があります。
+コンテナ80番ポートはhttpで、443番ポートはhttpsを使います。
